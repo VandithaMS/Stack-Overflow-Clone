@@ -1,0 +1,37 @@
+.h1-tag{
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+.tag-p{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.tags-list-div{
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap:10px;
+}
+
+.tag{
+    padding: 10px;
+    border: solid 1px #d2d2d2 ;
+    border-radius: 2px;
+}
+
+.tag h5{
+    margin: 10px 0px;
+    padding: 5px 5px;
+    display: inline-block;
+    background-color: #e1ecf4;
+    color: #397398;
+    font-weight: 400;
+}
+
+.tag p{
+    font-size: 14px;
+    color: #323232;
+    line-height: 17px;
+}
