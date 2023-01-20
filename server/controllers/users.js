@@ -105,6 +105,7 @@ const remReqs = async(id1,id2) =>{
 
 export const getNotif = async(req,res)=>{
     const {id} = req.params
+    //console.log(id)
     try {
         const x = await notif.findOne({user:id})
         res.status(200).json(x)
