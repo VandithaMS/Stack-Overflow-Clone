@@ -3,7 +3,7 @@ import './Plans.css'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { useDispatch, useSelector} from 'react-redux'
 import askQuestion from '../../actions/question'
-import {addPlan} from '../../actions/plan'
+// import {addPlan} from '../../actions/plan'
 
 const Plans = () => {
     const location = useLocation()
