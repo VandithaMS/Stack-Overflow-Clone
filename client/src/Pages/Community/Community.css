@@ -1,0 +1,57 @@
+.com-btn{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    border: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(177, 173, 173);
+}
+
+.com-div1{
+    margin-top: 50px;
+}
+
+.com-btn h5{
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    font-weight: 550;
+    justify-content: flex-start;
+    align-items: center;
+    top: -18px;
+    left: 45px;
+}
+
+.com-det button{
+    border: none;
+    margin-top: 0px;
+    background-color: transparent;
+    margin-right: 20px;
+    width: 40px;
+}
+
+.com-btn-send{
+    margin-right: 0%;
+}
+.share-btn-post:hover{
+    background-color: rgb(172, 168, 168);
+}
+.thumbs-up-btn:hover{
+    background-color: rgb(172, 168, 168);
+}
+.img-like{
+    width:30px;
+    height: auto;
+    background-color: transparent;
+}
+.frnd-remove{
+    color: white;
+    background-color: #0a95ff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5%;
+}

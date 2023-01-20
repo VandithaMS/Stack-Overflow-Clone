@@ -23,6 +23,9 @@ const Leftsidebar = () => {
                     <p>Users</p>
                 </NavLink>
             </div>
+            <NavLink to='/Community' className='left-link' activeClassName='active'>
+                <p>Community</p>
+            </NavLink>
         </nav>
     </div>
   )

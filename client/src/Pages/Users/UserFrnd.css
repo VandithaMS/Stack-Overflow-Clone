@@ -1,0 +1,26 @@
+.display-frnds{
+    margin-top: 70px;
+}
+.frnd-name{
+    width:80%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: left;
+    height: 100%;
+    padding: 10px;
+}
+
+.frnd-remove{
+    color: white;
+    background-color: #0a95ff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.frnd-name:hover{
+    background-color: rgb(223, 220, 220);
+}

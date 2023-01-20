@@ -22,3 +22,26 @@ export const deleteAnswer = (id, ansId, noOfAns) => API.patch(`/answer/delete/${
 
 export const fetchAllUsers = () => API.get('/user/getAllUsers')
 export const updateProfile = (id,updateData) => API.patch(`/user/update/${id}`, updateData)
+
+export const checkPlan = (id) => API.post('/plan/checkplan',{userId:id})
+export const checkNumQuestions = (id) => API.post('/plan/checknum', {userId:id})
+export const addPlan = (userId,plan)=>API.post('/plan/addplan', {userId:userId,plan:plan})
+
+export const addPost = (postData) => API.post('/user/post', postData)
+export const fetchUserPosts = (id) => API.get(`/user/post/${id}`)
+export const onePost = (id) => API.get(`/post/${id}`)
+export const oneUser = (id) =>API.get(`/user/${id}`)
+
+export const frndList = (id) =>API.get(`/user/frnd/${id}`)
+export const addFrnd = (userId, frndId) =>API.post('/add', {user:userId, frnd:frndId})
+export const remFrnd = (userId, frndId) =>API.post('/remove', {user:userId, frnd:frndId})
+
+export const sendReq = (sen, rec) =>API.post('/user/sendReq',{sen,rec})
+export const getNotif = (id) =>API.get(`/user/notif/${id}`)
+export const getCount = (id) =>API.get(`/user/count/${id}`)
+export const getReq = (id) =>API.get(`/user/req/${id}`)
+export const addLike = (id,like) =>API.post(`/post/like`,{id:id,like:like})
+export const remLike = (id,like) =>API.post(`/post/unlike`,{id:id,like:like})
+export const getLike = (id) =>API.get(`/post/like/${id}`)
+
+export const allPost = (user)=>API.post('/post/all',{id:user})

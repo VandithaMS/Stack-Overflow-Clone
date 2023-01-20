@@ -6,6 +6,10 @@ import dotenv from 'dotenv'
 import userRoutes from './routes/users.js'
 import questionRoutes from './routes/Questions.js'
 import answerRoutes from './routes/Answers.js'
+import planRoutes from './routes/Plan.js'
+import postRoute from './routes/Post.js'
+import addRoute from './routes/addFrnd.js'
+import {remRoute} from './routes/addFrnd.js'
 
 const app=express();
 dotenv.config();
@@ -20,6 +24,10 @@ app.get('/',(req,res)=>{
 app.use('/user', userRoutes)
 app.use('/questions', questionRoutes)
 app.use('/answer', answerRoutes)
+app.use('/plan', planRoutes)
+app.use('/post', postRoute)
+app.use('/add', addRoute)
+app.use('/remove', remRoute)
 
 const PORT = process.env.PORT || 5000
 

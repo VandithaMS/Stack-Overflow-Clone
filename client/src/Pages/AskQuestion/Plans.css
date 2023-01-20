@@ -1,0 +1,56 @@
+.plan-1, .plan-2, .plan-3{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.plan-div{
+    width:80%;
+    align-items: center;
+}
+.plan-div h2{
+    font-weight: 400;
+}
+.plan-div p{
+    margin-top: 70px;
+    color: rgb(107, 105, 105);
+}
+
+.plan-2, .plan-3{
+    border-left: 1px solid grey;
+    padding-left: 100px;
+}
+.plan-btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.plan-cancel-btn{
+    margin-top: 80px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.plan-3 .plan-btn{
+    margin-bottom: 0px;
+}
+
+.plan-cancel-btn{
+    margin-top: 25px;
+    margin-right: -200px;
+}
+
+.plan-btn{
+    margin: 35px 0px 20px 0px;
+    padding: 10px;
+    background-color: #009dff;
+    color: white;
+    border: solid 1px #009dff;
+    transition: 0.3s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .plan-btn:hover{
+    background-color: #0086d8;
+}

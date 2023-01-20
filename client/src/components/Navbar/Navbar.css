@@ -84,3 +84,53 @@
 .nav-link:hover{
     background-color: #d3e4eb;
 }
+
+.noti{
+    width: 30px;
+    height: 30px;
+}
+.noti-link{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.noti-num{
+    position: relative;
+    top: -10px;
+    left: -25px;
+    width: 17px;
+    height: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: smaller;
+    text-align: center;
+}
+.not-div2{
+    margin-top: 70px;
+}
+.not-btn1{
+    width: 80%;
+    height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.not-btn1:hover{
+    background-color: rgb(225, 220, 220);
+}
+
+.not-btn2{
+    color: white;
+    background-color: #0a95ff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5%;
+}
+.not-btn2:hover{
+    background-color: #0074cc;
+}

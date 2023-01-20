@@ -90,3 +90,47 @@
 .profile-tag h4, .profile-abt h4{
     font-weight: 500;
 }
+
+.sub-btn, .profile-new-post-btn{
+    color: white;
+    background-color: #0a95ff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5%;
+}
+.sub-btn:hover, .profile-new-post-btn:hover{
+    background-color: #0074cc;
+}
+
+.profile-new-post-btn{
+    margin-top: 30px;
+}
+
+.profile-post{
+    width: 90px;
+    height: 90px;
+
+}
+
+.profile-post-div{
+    margin-top: 20px;
+}
+
+.profile-post-div{
+    display: flex;
+    width: 70%;
+    cursor: pointer;
+}
+.profile-post-p{
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.profile-post-div:hover{
+    background-color: #d9d5d5;
+}
+.frnd{
+    margin-left: 70px;
+    margin-top: 70px;
+}

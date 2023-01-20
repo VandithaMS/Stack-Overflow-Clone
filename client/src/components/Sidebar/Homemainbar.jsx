@@ -1,15 +1,18 @@
 import React from 'react'
 import {useLocation, useNavigate} from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import './Homemainbar.css'
+import { checkPlan } from '../../actions/plan'
 import Questions from './Questions'
 
 const Homemainbar = () => {
 
-  const User=1;
   const navigate=useNavigate()
+  const dispatch=useDispatch()
   const questionList = useSelector(state=>state.questionReducer)
-  // console.log(questionList)
+  const User=useSelector(state=>state.currentUserReducer)
+  const location = useLocation()
+  dispatch(checkPlan(User?.result._id))
 
   const checkAuth = () =>{
     if(User === null){
@@ -40,7 +43,6 @@ const Homemainbar = () => {
   //   }]
   // },
 // ]
-  const location = useLocation()
 
   return (
     <div className='main-bar'>
